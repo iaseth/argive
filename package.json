@@ -1,10 +1,12 @@
 {
   "name": "argive",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eslint . --ext .ts && tsc",
+    "lint": "eslint . --ext .ts"
   },
   "keywords": [],
   "author": "iaseth",
