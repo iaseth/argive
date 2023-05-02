@@ -1,9 +1,9 @@
 {
   "name": "argive",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/argive.js",
+  "types": "dist/argive.d.ts",
   "scripts": {
     "build": "eslint . --ext .ts && tsc",
     "lint": "eslint . --ext .ts"
@@ -12,5 +12,8 @@
   "author": "iaseth",
   "homepage": "https://argive.js.org",
   "repository": "iaseth/argive",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
