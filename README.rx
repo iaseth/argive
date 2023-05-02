@@ -1,0 +1,21 @@
+
+# argive
+{{ "argive" | NpmLink }} is a library for parsing command line arguments.
+
+
+
+## Installation
+You can install {{ "argive" | NpmLink }} with the following command:
+=> npm i argive
+
+Now you should be able to import `argive` in your apps.
+=> import argive from "argive";
+
+
+
+## License
+{{ "LICENSE.md" | File }}
+
+
+{{ giveCredit() }}
+
